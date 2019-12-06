@@ -1,0 +1,42 @@
+.dinner, .lunch, .breakfast, div, .topnav a, .foo1, .foo, p, body, #hello, h4, h3, h2, h1 {
+  font-family: "Times New Roman", Georgia, Serif;
+}
+
+.dinner, .lunch, .breakfast {
+  color: #333;
+  border: 1px solid #bbb;
+  box-shadow: 1px 1px 0 #ddd;
+  margin: 0 10 10px;
+  padding: 15px;
+}
+
+h1 {
+  /* SCSS inheritance*/
+  font-size: 40px;
+  color: SeaGreen;
+  font-weight: bold;
+}
+
+div a {
+  display: block;
+  padding: 6px 12px;
+  text-align: center;
+  text-transform: uppercase;
+}
+div a font {
+  weight: bold;
+}
+
+.breakfast {
+  background-color: lightyellow;
+}
+
+.lunch {
+  background-color: lightgreen;
+}
+
+.dinner {
+  background-color: lightpink;
+}
+
+/*# sourceMappingURL=styling.css.map */

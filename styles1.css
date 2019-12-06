@@ -1,0 +1,117 @@
+
+@import "styling.css";
+
+#image
+  {
+  border-radius: 45%;
+  }
+
+h1
+  {
+  text-align: center;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dashed;
+	padding-top: 5px;
+  }
+
+
+h2
+  {
+      font-size: 25px;
+	    color: #cc0052;
+      font-weight: bold;
+      text-align: center;
+	    border-right-width: 1px;
+	    border-bottom-width: 1px;
+	    border-left-width: 1px;
+	    padding-top: 5px;
+   }
+
+h3
+  {
+  text-decoration: underline;
+  color: blue;
+  font-size: 20px;
+  }
+
+#hello
+  {
+    font-size: 20px;
+  }
+
+#Warning
+  {
+      border-width:1px;
+      border-style: none;
+      font-size: 20px;
+      color:#9E0F93;
+    }
+
+#Top_Page
+  {
+  color: Blue;
+  margin-left: 700px;
+  background-color: pink;
+  text-decoration: underline;
+  font-size: 20px;
+  }
+
+@media (min-width: 1000px)
+  {
+    body
+      {
+        background-image: url("Food.jpeg");
+      }
+  }
+
+@media (max-width: 999px)
+  {
+      body
+        {
+          background-image: url("Food1.svg");
+        }
+  }
+
+footer
+  {
+  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 19px;
+  color: #f00;
+  text-align: left;
+  }
+
+.foo
+  {
+     color: #9E0F93;
+    }
+
+.foo1
+  {
+   color: blue;
+ }
+
+.topnav
+  {
+  overflow: hidden;
+  }
+
+.topnav a
+    {
+      display: inline-block;
+      background-color: #f2f2f2;
+      float: left;
+      color: Blue;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: underline;
+    }
+
+#list_style
+  {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  }

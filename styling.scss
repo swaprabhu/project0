@@ -1,0 +1,110 @@
+
+
+//SCSS variable
+$font_size : 40px;
+$font_color : SeaGreen;
+$font_fam : "Times New Roman", Georgia, Serif;
+
+//Using SCSS variable
+%message
+  {
+  font-family: $font_fam
+  }
+
+%foods
+  {
+    color: #333;
+    border: 1px solid #bbb;
+    box-shadow: 1px 1px 0 #ddd;
+    margin: 0 10 10px;
+    padding: 15px;
+    
+  }
+
+
+h1
+  {
+    @extend %message; /* SCSS inheritance*/
+    font-size: $font_size;
+    color: $font_color;
+    font-weight: bold;
+  }
+
+h2
+  {
+    @extend %message;
+  }
+
+h3
+  {
+    @extend %message;
+  }
+
+h4
+{
+  @extend %message;
+}
+
+
+#hello
+{
+  @extend %message;
+}
+
+body
+  {
+  @extend %message;
+  }
+
+p
+{
+@extend %message;
+}
+
+.foo {
+  @extend %message;
+}
+.foo1 {
+  @extend %message;
+}
+.topnav a {@extend %message;
+}
+
+//SCSS Nesting
+ div
+ {
+   @extend %message;
+      a
+        {
+        display: block;
+        padding: 6px 12px;
+          font
+              {
+              weight: bold;
+              }
+            text:
+              {
+                align: center;
+                transform: uppercase;
+              }
+          }
+  }
+
+
+ .breakfast {
+   @extend %message;
+   @extend %foods;
+   background-color: lightyellow;
+ }
+
+ .lunch{
+   @extend %message;
+   @extend %foods;
+   background-color: lightgreen;
+ }
+
+ .dinner{
+   @extend %message;
+   @extend %foods;
+   background-color: lightpink;
+ }
